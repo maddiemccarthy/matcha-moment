@@ -1,17 +1,24 @@
 import SwiftUI
-import Playgrounds
 
 struct ContentView: View {
+    @Environment(FavoritesStore.self) private var favorites
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            Tab("Recipes", systemImage: "leaf.fill") {
+                HomeView()
+            }
+
+            Tab("Favorites", systemImage: "heart.fill") {
+                FavoritesView()
+            }
+            .badge(favorites.count)
+        }
+        .tint(MatchaTheme.matchaDeep)
     }
 }
 
 #Preview {
     ContentView()
-}
-
-#Playground {
-    _ = 1 + 2
+        .environment(FavoritesStore())
 }

@@ -1,0 +1,45 @@
+{
+    "name": "Matcha Moment",
+    "subtitle": "Matcha recipes, whisked with care.",
+    "description": "The home of Matcha Moment, an iPhone app with six complete matcha recipes, a featured pick that changes daily, a Surprise Me button, and favorites that stay saved offline. Add this source to AltStore to install the app and receive updates.",
+    "iconURL": "https://raw.githubusercontent.com/maddiemccarthy/matcha-moment/main/icon.png",
+    "website": "https://github.com/maddiemccarthy/matcha-moment",
+    "tintColor": "#4A7345",
+    "nsfw": false,
+    "featuredApps": [
+        "io.altstore.MatchaMoment"
+    ],
+    "apps": [
+        {
+            "name": "Matcha Moment",
+            "bundleIdentifier": "io.altstore.MatchaMoment",
+            "developerName": "Maddie",
+            "subtitle": "Six matcha recipes, a daily pick, and saved favorites.",
+            "localizedDescription": "Matcha Moment is a calm, cream-and-green recipe app for matcha lovers.\n\n• Six complete recipes: Traditional Usucha, Iced Matcha Latte, Honey Oat Matcha Latte, Strawberry Matcha Latte, Sparkling Yuzu Matcha, and Matcha Chia Pudding\n• Every recipe lists ingredients, prep time, servings, difficulty, step-by-step instructions, and a barista tip\n• A featured recipe that rotates every day\n• Tap Surprise Me for a random recipe\n• Favorites are saved on your device and work fully offline\n\nRequires iOS 27 or later.",
+            "iconURL": "https://raw.githubusercontent.com/maddiemccarthy/matcha-moment/main/icon.png",
+            "tintColor": "#4A7345",
+            "category": "lifestyle",
+            "screenshots": [
+                "https://raw.githubusercontent.com/maddiemccarthy/matcha-moment/main/screenshots/01-home.png",
+                "https://raw.githubusercontent.com/maddiemccarthy/matcha-moment/main/screenshots/02-recipe.png",
+                "https://raw.githubusercontent.com/maddiemccarthy/matcha-moment/main/screenshots/03-favorites.png"
+            ],
+            "versions": [
+                {
+                    "version": "1.0",
+                    "buildVersion": "1",
+                    "date": "2026-10-08",
+                    "size": 91485,
+                    "downloadURL": "https://github.com/maddiemccarthy/matcha-moment/releases/download/v1.0/MatchaMoment-1.0.ipa",
+                    "localizedDescription": "Initial release.",
+                    "minOSVersion": "27.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            }
+        }
+    ],
+    "news": []
+}
